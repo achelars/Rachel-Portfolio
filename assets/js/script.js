@@ -65,7 +65,7 @@ document.querySelectorAll('.progress').forEach(bar => observer.observe(bar));
 
 // Typing Animation
 const typed = new Typed(".multiple-text", {
-  strings: ["Software Developer", "Business Systems Analyst", "UI/UX Designer", "Technology Consultant"],
+  strings: ["Software Developer", "Systems Analyst", "UI/UX Designer", "Technology Consultant", "QC Tester"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
@@ -100,7 +100,7 @@ if (contactForm) {
       };
 
       // Send email using EmailJS
-      emailjs.send('service_kw3te4t', 'template_dazbx9h', templateParams) // Replace with your service ID and template ID
+      emailjs.send('service_kw3te4t', 'template_dazbx9h', templateParams) 
           .then(function(response) {
               // Success message
               alert('Thank you! Your message has been sent successfully.');
